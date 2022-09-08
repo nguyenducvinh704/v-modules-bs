@@ -1,10 +1,12 @@
-# Basic CMS Package
+## Basic CMS Package
 
 
 **Install need packages**
 
-***Teamplate admin***: [Polygon](https://colorlib.com/polygon/gentelella/index3.html]) 
-
+***Teamplate admin***: 
+ - [Polygon](https://github.com/ColorlibHQ/gentelella) - `Professionally`
+ - [Adminator (Bootstrap 5)](https://github.com/puikinsh/Adminator-admin-dashboard) - `Young buffalo`
+ - [Bootstrap-Admin-Template](https://github.com/puikinsh/Bootstrap-Admin-Template) - `Mechanzation`
 
 1. *composer.json requered name packages to* `composer update`
 
@@ -13,7 +15,7 @@
 
     * livewire/livewire - [Document](https://laravel-livewire.com/docs/2.x/quickstart).
 
-    * ckfinder/ckfinder-laravel-package (manager file) - [document](https://github.com/ckfinder/ckfinder-laravel-package).
+    * barryvdh/laravel-elfinder - [Document](https://github.com/barryvdh/laravel-elfinder)
 
     * cache (Read the following packages document)
 
