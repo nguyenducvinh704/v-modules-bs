@@ -1,0 +1,11 @@
+{
+    "name": "Dashboad",
+    "alias": "dashboad",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dashboad\\Providers\\DashboadServiceProvider"
+    ],
+    "files": []
+}
