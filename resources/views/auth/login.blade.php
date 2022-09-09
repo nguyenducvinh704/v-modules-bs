@@ -8,8 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CMS Modules</title>
-
+    <title>Nguyễn Vinh - Demo Login</title>
     <!-- Bootstrap -->
     <link href="{{ asset('modules/layout/assets/bootstrap/dist/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->
@@ -18,6 +17,7 @@
     <link href="{{ asset('modules/layout/assets/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
+
 </head>
 
 <body class="login">
