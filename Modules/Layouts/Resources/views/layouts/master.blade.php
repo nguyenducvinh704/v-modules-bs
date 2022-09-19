@@ -19,7 +19,7 @@
     <!-- iCheck -->
     <link href="{{ asset('modules/layout/assets/iCheck/skins/flat/red.css') }}" rel="stylesheet">
     <!-- bootstrap-progressbar -->
-    <link href="{{ asset('modules/layout/assets/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('modules/layout/assets/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.css') }}" rel="stylesheet">
     <!-- JQVMap -->
     <link href="{{ asset('modules/layout/assets/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
     <!-- bootstrap-daterangepicker -->
@@ -35,6 +35,7 @@
     @stack('css')
     <!-- Custom Style -->
     <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/css/silde-menu.css') }}" rel="stylesheet">
     {{-- option css --}}
     @stack('style')
 </head>
@@ -46,15 +47,14 @@
             @include('layouts::layouts.sidebar')
 
             <!-- top navigation -->
-            <div class="right_col" role="main">
-                @include('layouts::layouts.nav-top')
-            </div>
+            @include('layouts::layouts.nav-top')
             <!-- top navigation -->
 
+            <div class="right_col" role="main">
             <!-- page content -->
-            @yield('content')
+                @yield('content')
             <!-- /page content -->
-
+            </div>
             <!-- footer content -->
             <footer class="footer">
                 <div class="container-fluid clearfix">
@@ -72,7 +72,7 @@
     <!-- Bootstrap -->
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <!-- FastClick -->
-    <script src="{{ asset('js/fastclick.min.js') }}"></script>
+    <script src="{{ asset('js/fastclick.js') }}"></script>
     <!-- NProgress -->
     <script src="{{ asset('js/nprogress.js') }}"></script>
     <!-- bootstrap-progressbar -->
@@ -85,8 +85,6 @@
     <script src="{{ asset('js/Chart.min.js') }}"></script>
     <!-- Skycons -->
     <script src="{{ asset('js/skycons.js') }}"></script>
-    <!-- DateJS -->
-    <script src="{{ asset('js/date.js') }}"></script>
     <!-- jQuery Tags Input -->
     <script src="{{ asset('js/jquery.tagsinput.js') }}"></script>
     <!-- Switchery -->
