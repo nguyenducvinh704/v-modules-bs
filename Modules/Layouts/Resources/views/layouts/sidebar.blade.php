@@ -1,10 +1,11 @@
 <div class="col-md-3 left_col">
     <div class="left_col scroll-view">
-        <div class="navbar nav_title" style="border: 0;">
-            <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+        <div class="navbar nav_title nav_title text-center navbar-brand-wrapper d-flex align-items-top justify-content-center" style="border: 0;">
+            <a href="{{ route('dashboard') }}" class="site_title">
+                <img style="display: inline-block; max-width: 100px; height:auto" src="{{ asset('images/logo/logo.jpg') }}" alt="Logo">
+            </a>
         </div>
         <div class="clearfix"></div>
-        <br />
         <!-- sidebar menu -->
         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
             <div class="menu_section">

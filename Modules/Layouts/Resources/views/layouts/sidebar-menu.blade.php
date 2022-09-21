@@ -10,7 +10,8 @@
 
 
 <li class="{{ ($path_here[2] ==  $menu['name']) ? 'active' : '' }}">
-    <a><i class="{{ $menu['icon'] }}"></i> {{ $menu['title'] }}
+    <a>
+        <i class="menu-icon {{ $menu['icon'] }}"></i> {{ $menu['title'] }}
         @if ($has_sub_menu)
             <span class="fa fa-chevron-down"></span>
         @endif

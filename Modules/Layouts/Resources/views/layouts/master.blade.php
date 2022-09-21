@@ -52,7 +52,7 @@
 
             <div class="right_col" role="main">
             <!-- page content -->
-                @yield('content')
+            @yield('content')
             <!-- /page content -->
             </div>
             <!-- footer content -->
@@ -97,6 +97,6 @@
     <script src="{{ asset('js/jquery.autocomplete.min.js') }}"></script>
     <!-- Custom Theme Scripts -->
     <script src="{{ asset('build/js/custom.min.js') }}"></script>
-    
+    @yield('script')
 </body>
 </html>
