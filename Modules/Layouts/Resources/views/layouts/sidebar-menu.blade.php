@@ -6,11 +6,11 @@
     }
     // $has_sub_menu = isset($menu['sub']) ? true : false;
     $path_here = explode('/', $_SERVER['REQUEST_URI']);
+    $url = $menu['url'];
 @endphp
 
-
 <li class="{{ ($path_here[2] ==  $menu['name']) ? 'active' : '' }}">
-    <a>
+    <a {{ $has_sub_menu ? "" : "href=".$url."" }}>
         <i class="menu-icon {{ $menu['icon'] }}"></i> {{ $menu['title'] }}
         @if ($has_sub_menu)
             <span class="fa fa-chevron-down"></span>
