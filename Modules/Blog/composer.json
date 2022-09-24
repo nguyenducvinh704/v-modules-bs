@@ -1,23 +1,16 @@
 {
-    "name": "nwidart/blog",
-    "description": "",
+    "name": "laravinh/module-blog",
+    "description": "The module blog in Laravinh CMS",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "license": "MIT",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "nguyenducvinh704",
+            "email": "nguyenducvinh704@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [],
-            "aliases": {
-
-            }
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Blog\\": ""
-        }
-    }
+    "minimum-stability": "dev"
 }

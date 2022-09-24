@@ -1,9 +1,12 @@
-@extends('blog::layouts.master')
+@extends('layouts::layouts.master')
+
+@section('title')
+    {{ __('Dashboard') }}
+@endsection
 
 @section('content')
-    <h1>Hello World</h1>
+    Modules Blog
+@endsection
 
-    <p>
-        This view is loaded from module: {!! config('blog.name') !!}
-    </p>
+@section('script')
 @endsection

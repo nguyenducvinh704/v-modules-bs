@@ -36,6 +36,7 @@
     <!-- Custom Style -->
     <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
     <link href="{{ asset('build/css/silde-menu.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/css/style.css') }}" rel="stylesheet">
     {{-- option css --}}
     @stack('style')
 </head>
